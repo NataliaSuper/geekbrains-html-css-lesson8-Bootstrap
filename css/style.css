@@ -109,7 +109,8 @@ body {
   background: url("../images/scale_1200-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 750px;
+  min-height: 70vh;
+  max-height: 80vh;
   background-size: contain;
 }
 
@@ -186,17 +187,10 @@ body {
   .carousel-inner {
     max-height: 623px;
   }
-
-  .bottom-picture {
-    min-height: 550px;
-  }
 }
+
 @media (max-width: 667px) {
   .carousel-inner {
     max-height: 343px;
-  }
-
-  .bottom-picture {
-    min-height: 350px;
   }
 }
